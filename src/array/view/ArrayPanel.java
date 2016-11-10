@@ -18,7 +18,7 @@ public class ArrayPanel extends JPanel
 		this.baseLayout = new SpringLayout();
 		this.myButton = new JButton("Click the button");
 		this.infoLabel = new JLabel("Wow words!");
-		this.dropDown = new JComboBox(baseController.getArrays());
+		this.dropDown = new JComboBox(baseController.getWords());
 		
 		setupPanel();
 		setupLayout();
